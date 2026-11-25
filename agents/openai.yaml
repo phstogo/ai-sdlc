@@ -1,0 +1,13 @@
+interface:
+  display_name: AI SDLC 品質交付
+  short_description: 從需求、設計、實作到交付驗證，同步檢查可靠性與資安風險
+  default_prompt: 用 $ai-sdlc 完成這項功能，執行適用的測試與防禦性資安審查，並交付可查核的證據。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

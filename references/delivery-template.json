@@ -1,0 +1,57 @@
+{
+  "risk": "standard",
+  "candidate": "0000000000000000000000000000000000000000",
+  "requirements": {
+    "path": "requirements.md",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "specification": {
+    "path": "specification.md",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "acceptance": [
+    {
+      "id": "AC-01",
+      "expected": "以同一識別碼再次提交時，回傳原工作，資料只寫入一筆",
+      "checks": [
+        "functional",
+        "reliability",
+        "integration"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "functional",
+      "required": true,
+      "status": "not-run",
+      "detail": "待執行"
+    },
+    {
+      "id": "reliability",
+      "required": true,
+      "status": "not-run",
+      "detail": "待執行"
+    },
+    {
+      "id": "integration",
+      "required": true,
+      "status": "not-run",
+      "detail": "待執行"
+    },
+    {
+      "id": "security-review",
+      "required": true,
+      "status": "not-run",
+      "detail": "待執行"
+    },
+    {
+      "id": "code-review",
+      "required": true,
+      "status": "not-run",
+      "detail": "待執行"
+    }
+  ],
+  "approvals": [],
+  "findings": []
+}
